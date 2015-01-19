@@ -18,7 +18,7 @@ public class GuiOptios : MonoBehaviour {
 	private Rect cajaAbout;
 	// Use this for initialization
 	void Start () {
-		flagScreem=true;//cambiar
+		flagScreem=false;//cambiar
 		flagExit=false;
 		flagFlash=true;
 		flagAbout=false;
