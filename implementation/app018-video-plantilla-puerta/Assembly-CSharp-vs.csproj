@@ -61,6 +61,8 @@
      <Compile Include="Assets\Common\UIFramework\SampleAppUIRect.cs" />
      <Compile Include="Assets\Common\UIFramework\SceneViewManager.cs" />
      <Compile Include="Assets\Common\UIFramework\SplashScreenView.cs" />
+     <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs" />
@@ -88,11 +90,13 @@
      <Compile Include="Assets\Scripts\About.cs" />
      <Compile Include="Assets\Scripts\AppIUConstantes.cs" />
      <Compile Include="Assets\Scripts\GuiOptios.cs" />
+     <Compile Include="Assets\Scripts\JuegosArtificiales.cs" />
      <Compile Include="Assets\Scripts\PlayVideo.cs" />
      <Compile Include="Assets\Scripts\TrackableEventHandler.cs" />
      <Compile Include="Assets\Scripts\VideoPlaybackAppManager.cs" />
      <Compile Include="Assets\Scripts\VideoPlaybackUIEventHandler.cs" />
      <Compile Include="Assets\Scripts\VideoPlaybackUIView.cs" />
+     <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
      <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlaybackBehaviour.cs" />
      <Compile Include="Assets\Vuforia Video Playback\Scripts\VideoPlayerHelper.cs" />
      <None Include="Assets\Plugins\Android\VuforiaMediaSource\build.xml" />
@@ -109,6 +113,7 @@
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\VuforiaMediaSource\README.txt" />
      <None Include="Assets\readme.txt" />
+     <None Include="Assets\Elementals\!Readme.txt" />
      <None Include="Assets\StreamingAssets\QCAR\BaseDatosMisQuince.xml" />
      <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
