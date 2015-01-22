@@ -8,16 +8,13 @@ public class JuegosArtificiales : MonoBehaviour {
 	public Transform prefabExplosion2;
 	public Transform prefabExplosion3;
 	public Transform prefabExplosion4;
-	public Transform prefabExplosion5;
-	public Transform prefabExplosion6;
 	private Transform InstanciaExplosion;
 	public Transform marcadorPadre;
 	private bool flagExplosion1;
 	private bool flagExplosion2;
 	private bool flagExplosion3;
 	private bool flagExplosion4;
-	private bool flagExplosion5;
-	private bool flagExplosion6;
+
 	// Use this for initialization
 	void Start () {
 		this.iniciarExplosion();
@@ -70,14 +67,6 @@ public class JuegosArtificiales : MonoBehaviour {
 				StartCoroutine(tiempoEsperaExplosion(prefabExplosion4,3));
 				flagExplosion4=false;
 			}
-			if(flagExplosion5){
-				StartCoroutine(tiempoEsperaExplosion(prefabExplosion5,4));
-				flagExplosion5=false;
-			}
-			if(flagExplosion6){
-				StartCoroutine(tiempoEsperaExplosion(prefabExplosion6,4));
-				flagExplosion6=false;
-			}
 		}
 		if (video.CurrentState == VideoPlayerHelper.MediaState.READY)
 		{
@@ -96,8 +85,6 @@ public class JuegosArtificiales : MonoBehaviour {
 		flagExplosion2=true;
 		flagExplosion3=true;
 		flagExplosion4=true;
-		flagExplosion5=true;
-		flagExplosion6=true;
 	}
 	public IEnumerator tiempoEsperaExplosion(Transform prefabExplosion,float tiempoExpera){
 		yield return new WaitForSeconds(tiempoExpera);
