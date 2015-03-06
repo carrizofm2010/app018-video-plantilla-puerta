@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{AE853A6F-18A7-8816-3045-528D2689FFBE}</ProjectGuid>
+	<ProjectGuid>{80DC6D54-AB0C-A7F1-63AC-3A2C1B06A7F6}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -70,10 +70,10 @@
      <None Include="Assets\Resources\Vuforia_About.txt" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
  <Reference Include="Qualcomm.Vuforia.UnityExtensions.Editor">
- <HintPath>E:/REPO/app019-remera-demo/implementation/app019-remera-demo/Assets/Editor/QCAR/Scripts/Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>E:/REPO/app018-video-plantilla-puerta/implementation/app019-video-plantilla/Assets/Editor/QCAR/Scripts/Qualcomm.Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
- <HintPath>E:/REPO/app019-remera-demo/implementation/app019-remera-demo/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>E:/REPO/app018-video-plantilla-puerta/implementation/app019-video-plantilla/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -81,9 +81,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E94EF213-81A0-2E42-CA41-979A2880108F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{E2F952E9-15F2-E48C-34C1-3C8BBA617067}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-Editor-firstpass.unityproj">
-      <Project>{ACCEFFF0-0830-CC37-5EB8-B2675B03948E}</Project>      <Name>Assembly-UnityScript-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{3ABE056F-A074-7548-C809-7F63271BC466}</Project>      <Name>Assembly-UnityScript-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

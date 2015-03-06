@@ -10,7 +10,7 @@ public class AppIUConstantes{
 	public static string CONTACTO="Contacto";
 	public static string CERRAR="Cerrar";
 	public static string NOMBRE_BOTON_DESCARGA="Descargar";
-	public static string LINK_DESCARGA="http://download1480.mediafire.com/2hzazc85obgg/ksc3w6wqw1dpawd/tarjetaMis15.jpg";
+	public static string LINK_DESCARGA="http://www.mediafire.com/download/ksc3w6wqw1dpawd/tarjetaMis15.jpg";
 	public static string FACEBOOK="https://www.facebook.com/ikaroIRA";
 	public static string DIRECCION_YOUTUBE="https://www.youtube.com/channel/UCocPp0I839SJLELG8ixF1vg";
 	public static string NOMBRE_CUENTA_YOUTUBE="Ikaro Coop IT";
